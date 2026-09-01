@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lin Liu — School of Software, Tsinghua University</title>
+<meta name="description" content="Lin Liu is a Professor at the School of Software, Tsinghua University, working on requirements engineering, services engineering, and domain knowledge engineering.">
+<meta property="og:title" content="Lin Liu — School of Software, Tsinghua University">
+<meta property="og:description" content="Requirements engineering, services engineering, and domain knowledge engineering.">
+<meta property="og:type" content="profile">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26' font-family='Georgia,serif'>刘</text></svg>">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <span class="nav-name">Lin Liu</span>
+    <a href="#about">About</a>
+    <a href="#news">News</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#service">Service</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <img class="portrait" src="assets/portrait.svg" alt="Lin Liu">
+    <div>
+      <h1>Lin Liu<span class="zh">刘璘</span></h1>
+      <p class="title">Professor, School of Software</p>
+      <p class="affil">Tsinghua University, Beijing, China</p>
+      <p class="meta">Room 1411, Building 2, Ziqiang Science &amp; Technology Building · linliu@tsinghua.edu.cn</p>
+      <div class="links">
+        <a href="https://scholar.google.com/citations?user=0-SZSzgAAAAJ">Google Scholar</a>
+        <a href="https://dblp.org/pers/hd/l/Liu_0001:Lin">DBLP</a>
+        <a href="https://www.thss.tsinghua.edu.cn/en/faculty/linliu.htm">Faculty page</a>
+        <a href="publications.html">Full publication list</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am a Professor at the School of Software, Tsinghua University. My research is in
+    <strong>requirements engineering</strong>, <strong>services engineering</strong>, and
+    <strong>domain knowledge engineering</strong> — how software systems, and the data and knowledge
+    they depend on, can be modelled and systematically analysed before, during, and after they are built.</p>
+
+    <p>A long-running thread of my work asks how <em>intent</em> — the goals, obligations and social
+    dependencies among the people and organisations a system serves — can be represented precisely enough
+    to be reasoned about. That question runs from goal- and agent-oriented modelling with
+    <em>i*</em> and Tropos, through formal verification of early requirements in Formal Tropos, to
+    security and privacy requirements analysis within a social setting, and more recently to
+    requirements for machine-learning and large-language-model agent systems.</p>
+
+    <p>A second thread is applied: turning domain data and expert knowledge into services that people
+    actually rely on — oral health and clinical decision support, industrial safety analytics, and
+    requirements engineering for well-being, ageing and health.</p>
+
+    <p>Before joining Tsinghua in 2004, I was a postdoctoral fellow at the University of Toronto, in the
+    Faculty of Information Studies and later in the Department of Computer Science. I hold a Ph.D. from
+    the Institute of Mathematics, Chinese Academy of Sciences, and B.S. and M.S. degrees in computer
+    science from Jilin University.</p>
+  </section>
+
+  <section id="news">
+    <h2>News</h2>
+    <ul class="news">
+      <li><span class="date">2026</span><span class="item">Preprint: <em>Boosting AI Reliability with an FSM-Driven Streaming Inference Pipeline — An Industrial Case</em>.</span></li>
+      <li><span class="date">2026</span><span class="item">Ongoing work on intent-level runtime verification for LLM agents, extending Formal Tropos specifications to runtime monitors.</span></li>
+      <li><span class="date">2024</span><span class="item"><em>BTTackler: A Diagnosis-based Framework for Efficient Deep Learning Hyperparameter Optimization</em> appears at <strong>KDD 2024</strong>.</span></li>
+      <li><span class="date">2024</span><span class="item">Co-organised the fifth <strong>REWBAH</strong> workshop (Requirements Engineering for Well-Being, Aging and Health) at RE'24.</span></li>
+      <li><span class="date">2023</span><span class="item"><em>Sustaining human health: a requirements engineering perspective</em> published in the <em>Journal of Systems and Software</em>.</span></li>
+      <li><span class="date">2022</span><span class="item"><em>Requirements Engineering for Machine Learning: A Review and Reflection</em> presented at the RE'22 workshops.</span></li>
+    </ul>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <div class="themes">
+      <div class="theme">
+        <h3>Goal- and agent-oriented modelling</h3>
+        <p>Modelling the strategic actors around a system — their goals, dependencies and vulnerabilities —
+        with <em>i*</em> and Tropos, and using those models to drive design and architectural choices.</p>
+      </div>
+      <div class="theme">
+        <h3>Formal analysis of early requirements</h3>
+        <p>Formal Tropos: giving intentional requirements models a temporal-logic semantics so that early
+        specifications can be animated and model-checked before any code exists.</p>
+      </div>
+      <div class="theme">
+        <h3>Security &amp; privacy requirements</h3>
+        <p>Analysing security as a relationship among strategic actors rather than a property of a
+        mechanism — Secure-<em>i*</em>, attacker-viewpoint analysis, and security requirements education.</p>
+      </div>
+      <div class="theme">
+        <h3>Crowd-based &amp; data-driven RE</h3>
+        <p>Eliciting requirements from what users do and say at scale: behavioural data, online forums,
+        argumentation mining, and the evolution of services in response to changing needs.</p>
+      </div>
+      <div class="theme">
+        <h3>Health, well-being and safety</h3>
+        <p>Requirements engineering for well-being, ageing and health; oral health ontologies and big-data
+        services; clinical decision support; industrial safety analytics and accident prevention.</p>
+      </div>
+      <div class="theme">
+        <h3>Requirements for AI and agent systems</h3>
+        <p>What "requirements" mean when the artefact is a learned model or an autonomous LLM agent —
+        specification, monitoring, reliability, and accountability at the level of intent.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Selected publications</h2>
+    <p>A fuller, year-by-year list is on the <a href="publications.html">publications page</a>;
+    the most current record is on <a href="https://dblp.org/pers/hd/l/Liu_0001:Lin">DBLP</a> and
+    <a href="https://scholar.google.com/citations?user=0-SZSzgAAAAJ">Google Scholar</a>.</p>
+    <ul class="pubs">
+      <li><span class="a"><span class="me">L. Liu</span>, E. Yu, J. Mylopoulos.</span>
+        <span class="t">Security and Privacy Requirements Analysis within a Social Setting.</span>
+        <span class="v">IEEE International Requirements Engineering Conference (RE), 2003.</span><span class="tag">most cited</span></li>
+      <li><span class="a"><span class="me">L. Liu</span>, E. Yu.</span>
+        <span class="t">Designing information systems in social context: a goal and scenario modelling approach.</span>
+        <span class="v">Information Systems 29(2), 2004.</span></li>
+      <li><span class="a">A. Fuxman, <span class="me">L. Liu</span>, J. Mylopoulos, M. Pistore, M. Roveri, P. Traverso.</span>
+        <span class="t">Specifying and analyzing early requirements in Tropos.</span>
+        <span class="v">Requirements Engineering Journal 9(2), 2004.</span><span class="tag">Formal Tropos</span></li>
+      <li><span class="a"><span class="me">L. Liu</span>, E. Yu, J. Mylopoulos.</span>
+        <span class="t">Secure-i*: Engineering Secure Software Systems through Social Analysis.</span>
+        <span class="v">International Journal of Software and Informatics 3(1), 2009.</span></li>
+      <li><span class="a"><span class="me">L. Liu</span>, T. Li, F. Peng.</span>
+        <span class="t">Why Requirements Engineering Fails: A Survey Report from China.</span>
+        <span class="v">IEEE International Requirements Engineering Conference (RE), 2010.</span></li>
+      <li><span class="a">F.-L. Li, J. Horkoff, J. Mylopoulos, R. Guizzardi, G. Guizzardi, A. Borgida, <span class="me">L. Liu</span>.</span>
+        <span class="t">Non-functional requirements as qualities, with a spice of ontology.</span>
+        <span class="v">IEEE International Requirements Engineering Conference (RE), 2014.</span></li>
+      <li><span class="a"><span class="me">L. Liu</span>, Q. Zhou, J. Liu, Z. Cao.</span>
+        <span class="t">Requirements cybernetics: elicitation based on user behavioural data.</span>
+        <span class="v">Journal of Systems and Software 124, 2017.</span></li>
+      <li><span class="a">A. Yasin, <span class="me">L. Liu</span>, T. Li, J. Wang, D. Zowghi.</span>
+        <span class="t">Design and preliminary evaluation of a cyber Security Requirements Education Game (SREG).</span>
+        <span class="v">Information and Software Technology 95, 2018.</span></li>
+      <li><span class="a">M. Levy, <span class="me">L. Liu</span>, D. Amyot, E. Yu, et al.</span>
+        <span class="t">Requirements Engineering for Well-Being, Aging, and Health: An Overview for Practitioners.</span>
+        <span class="v">IEEE Software 38(3), 2021.</span></li>
+      <li><span class="a">Z. Pei, <span class="me">L. Liu</span>, C. Wang, J. Wang.</span>
+        <span class="t">Requirements Engineering for Machine Learning: A Review and Reflection.</span>
+        <span class="v">RE Workshops, 2022.</span></li>
+      <li><span class="a">Z. Pei, Z. Cen, Y. Huang, C. Wang, <span class="me">L. Liu</span>, P. S. Yu, M. Long, J. Wang.</span>
+        <span class="t">BTTackler: A Diagnosis-based Framework for Efficient Deep Learning Hyperparameter Optimization.</span>
+        <span class="v">ACM SIGKDD (KDD), 2024.</span></li>
+    </ul>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching &amp; students</h2>
+    <p>I teach and design courses in software engineering at the School of Software, with a particular
+    interest in outcome-based education (OBE) and in what software engineering curricula should look like
+    now that AI assistance is part of ordinary practice — from requirements and design through to
+    full-stack project work, testing and code review.</p>
+    <p>I supervise M.Sc. and Ph.D. students working on requirements engineering, knowledge graphs and
+    domain ontologies, health and safety informatics, and the specification and reliability of LLM-based
+    agent systems. Prospective students with a background in software engineering, information systems or
+    applied machine learning are welcome to write to me with a CV and a short statement of interest.</p>
+  </section>
+
+  <section id="service">
+    <h2>Service &amp; talks</h2>
+    <div class="two-col">
+      <div>
+        <h3>Editorial boards</h3>
+        <ul class="plain">
+          <li><em>Requirements Engineering Journal</em> (Springer), 2016–</li>
+          <li><em>Journal of Software</em> (软件学报), 2011–</li>
+          <li><em>International Journal of Information Systems Modelling and Design</em>, Associate Editor, 2010–</li>
+        </ul>
+        <h3>Organising roles</h3>
+        <ul class="plain">
+          <li>REWBAH workshop series (RE for Well-Being, Aging and Health) — co-organiser, 2021–2024</li>
+          <li>IEEE COMPSAC — Program Chair, 2014–</li>
+          <li>RE — Workshops Co-Chair and PC, 2013–</li>
+          <li>CoopIS / OTM 2014 — Program Co-Chair</li>
+          <li>10th International <em>i*</em> Workshop (iStar 2017, with CAiSE) — co-chair</li>
+          <li>APRES 2015 (Asia-Pacific Requirements Engineering Symposium) — co-chair</li>
+          <li>Internetware 2012 — organising committee</li>
+          <li>Dagstuhl Seminar 12442, <em>Requirements Management: Novel Perspectives and Challenges</em> — organiser</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Programme committees</h3>
+        <ul class="plain">
+          <li>RE — International Requirements Engineering Conference</li>
+          <li>CAiSE — Advanced Information Systems Engineering</li>
+          <li>ICSOC — Service-Oriented Computing (senior PC)</li>
+          <li>COMPSAC, RCIS, ICGSE, ACM SAC (RE track)</li>
+        </ul>
+        <h3>Selected projects</h3>
+        <ul class="plain">
+          <li>Industrial safety big data and intelligent applications, 2020–2025</li>
+          <li>Baidu–Tsinghua medical AI collaboration, 2019–2022</li>
+          <li>Crowd-based requirements elicitation and modelling (NSFC key project), 2015–2019</li>
+          <li>Oral health big data service technologies and platform, 2015–2017</li>
+          <li>Environment-driven trustworthy software requirements engineering (NSFC key project), 2009–2012</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <dl class="contact">
+      <dt>Email</dt>
+      <dd><a href="mailto:linliu@tsinghua.edu.cn">linliu@tsinghua.edu.cn</a></dd>
+      <dt>Office</dt>
+      <dd>Room 1411, Building 2, Ziqiang Science &amp; Technology Building</dd>
+      <dt>Post</dt>
+      <dd>School of Software, Tsinghua University, Haidian District, Beijing 100084, China</dd>
+    </dl>
+  </section>
+
+</div>
+
+<footer>
+  <span>© <span id="y">2026</span> Lin Liu · School of Software, Tsinghua University</span>
+  <span>Last updated September 2026</span>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
